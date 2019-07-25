@@ -1,4 +1,4 @@
-package wzorceProjektowe1_Builder;
+package creational.wzorceProjektowe1_Builder_Zad_1;
 /*
 Tworzymy klasę, wpisujemy pola, (np. GameCharacter)
 Stworzenie/generowanie konstruktora pełnego, (public GameCharacter(String name,...)

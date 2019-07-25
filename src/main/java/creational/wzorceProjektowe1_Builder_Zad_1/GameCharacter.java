@@ -1,4 +1,4 @@
-package wzorceProjektowe1_Builder;
+package creational.wzorceProjektowe1_Builder_Zad_1;
 
 public class GameCharacter {
     private String name;

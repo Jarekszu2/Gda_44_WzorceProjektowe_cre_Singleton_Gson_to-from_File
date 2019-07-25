@@ -1,7 +1,6 @@
-package wzorceProjektowe3;
+package creational.wzorceProjektowe2_Factory_Zad_1;
 
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
 //@NoArgsConstructor

@@ -1,4 +1,4 @@
-package wzorceProjektowe2_Builder_Lombok;
+package creational.wzorceProjektowe1_Builder_Zad_2_Lombok;
 
 import lombok.*;
 

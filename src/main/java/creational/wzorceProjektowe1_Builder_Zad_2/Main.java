@@ -1,4 +1,4 @@
-package wzorceProjektowe2_Builder;
+package creational.wzorceProjektowe1_Builder_Zad_2;
 
 public class Main {
     public static void main(String[] args) {
