@@ -1,4 +1,4 @@
-package behavioral.strategyZad1;
+package behavioral.strategyZad2;
 
 import lombok.Data;
 
@@ -11,7 +11,7 @@ public class Drukarka {
         this.name = name;
     }
 
-    public void zmien(IFormatterCzcionki iFormatterCzcionki) {
+    public void ustawFormatWydruku(IFormatterCzcionki iFormatterCzcionki) {
         setFormatter(iFormatterCzcionki);
     }
 

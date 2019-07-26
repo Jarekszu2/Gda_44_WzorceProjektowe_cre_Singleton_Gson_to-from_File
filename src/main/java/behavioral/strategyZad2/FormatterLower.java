@@ -1,4 +1,4 @@
-package behavioral.strategyZad1;
+package behavioral.strategyZad2;
 
 public class FormatterLower implements IFormatterCzcionki {
     @Override

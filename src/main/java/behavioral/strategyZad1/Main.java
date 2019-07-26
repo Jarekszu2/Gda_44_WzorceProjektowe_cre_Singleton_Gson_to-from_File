@@ -2,14 +2,26 @@ package behavioral.strategyZad1;
 
 public class Main {
     public static void main(String[] args) {
-        Drukarka drukarka = new Drukarka("Epson");
-        FormatterLower formatterLower = new FormatterLower();
-        FormatterUpper formatterUpper = new FormatterUpper();
+        System.out.println();
 
+        Hero hero = new Hero("Zawisza");
+        Miecz miecz = new Miecz();
+        Dzida dzida = new Dzida();
+        Maczuga maczuga = new Maczuga();
 
-        drukarka.zmien(formatterLower);
-        drukarka.drukuj("Ala ma kota.");
-        drukarka.zmien(formatterUpper);
-        drukarka.drukuj("Ala ma kota.");
+        hero.pojedynek();
+        hero.pojedynek();
+        hero.pojedynek();
+        hero.zmienBron(maczuga);
+        hero.pojedynek();
+        hero.pojedynek();
+        hero.pojedynek();
+        hero.pojedynek();
+        hero.zmienBron(dzida);
+        hero.pojedynek();
+        hero.zmienBron(miecz);
+        hero.pojedynek();
+        hero.pojedynek();
+
     }
 }

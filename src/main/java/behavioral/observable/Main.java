@@ -13,10 +13,10 @@ public class Main {
         System.out.println();
 
         NewsStation newsStation = new NewsStation();
-        newsStation.dodajSluchacza(new Watcher("Zbig"));
-        newsStation.dodajSluchacza(new Watcher("WIG"));
-        newsStation.dodajSluchacza(new Watcher("Dzik"));
-        newsStation.dodajSluchacza(new Watcher("Wilk"));
+        newsStation.dodajSluchacza(new Watcher("Zbig", 2));
+        newsStation.dodajSluchacza(new Watcher("WIG", 3));
+        newsStation.dodajSluchacza(new Watcher("Dzik", 4));
+        newsStation.dodajSluchacza(new Watcher("Wilk", 1));
 
         newsStation.wyslijWiadomosc(new News("Jest już późno.", 3));
     }
