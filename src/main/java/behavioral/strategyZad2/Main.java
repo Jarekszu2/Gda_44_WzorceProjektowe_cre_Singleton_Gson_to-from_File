@@ -13,10 +13,18 @@ public class Main {
         Drukarka drukarka = new Drukarka("Epson");
         FormatterLower formatterLower = new FormatterLower();
         FormatterUpper formatterUpper = new FormatterUpper();
+        FormatterInverter formatterInverter = new FormatterInverter();
 
         drukarka.ustawFormatWydruku(formatterLower);
         drukarka.drukuj("Ala ma kota.");
         drukarka.ustawFormatWydruku(formatterUpper);
         drukarka.drukuj("Ala ma kota.");
+        drukarka.ustawFormatWydruku(new FormatterTrim());
+        drukarka.drukuj(" Ala ma kota. ");
+        drukarka.ustawFormatWydruku(formatterInverter);
+        drukarka.drukuj("Ala ma kota.");
+        drukarka.ustawFormatWydruku(new FormatterSplitter());
+        drukarka.drukuj("Ala ma kota.");
+
     }
 }

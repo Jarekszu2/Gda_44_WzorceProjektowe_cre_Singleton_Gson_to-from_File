@@ -49,8 +49,8 @@ public class DecoratedChristmasTree implements ITree {
         return result;
     }
 
-    public void printTree(String s) {
-        System.out.println(s);
+    public void printTree() {
+        System.out.println(buildStringTree());
     }
 
 }

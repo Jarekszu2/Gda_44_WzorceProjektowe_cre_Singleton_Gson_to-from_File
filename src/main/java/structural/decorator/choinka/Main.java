@@ -5,12 +5,12 @@ public class Main {
         System.out.println();
 
         SimpleChristmasTree simpleChristmasTree = new SimpleChristmasTree(12);
-        simpleChristmasTree.printTree(simpleChristmasTree.buildStringTree());
+        simpleChristmasTree.printTree();
 
 
         System.out.println();
         DecoratedChristmasTree decoratedChristmasTree = new DecoratedChristmasTree(simpleChristmasTree, 20);
-        decoratedChristmasTree.printTree(decoratedChristmasTree.buildStringTree());
+        decoratedChristmasTree.printTree();
 
     }
 }

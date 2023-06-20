@@ -32,7 +32,7 @@ public class SimpleChristmasTree implements ITree {
         return stringTree;
     }
 
-    public void printTree(String stringTree) {
-        System.out.println(stringTree);
+    public void printTree() {
+        System.out.println(buildStringTree());
     }
 }
